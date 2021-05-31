@@ -1,0 +1,36 @@
+.TableContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .Table {
+    tbody {
+      td {
+        border: none;
+        box-shadow: none;
+      }
+  
+      tr {
+        &:nth-child(odd) {
+            td {
+                background-color: white;
+            }
+        }
+  
+        &:nth-child(even) {
+          td {
+            background-color: #eeeeee;
+          }
+        }
+      }    
+    }
+  }
+  
+  .Table-Header {
+    background-color: #424242;
+    color: white;
+    
+    th {
+      border: none;
+    }
+  }
